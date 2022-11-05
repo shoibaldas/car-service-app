@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '../../assets/logo.svg';
+import logo from '../../../assets/logo.svg';
 
 const Footer = () => {
     return (
-        <footer className="footer p-24 bg-black text-gray-300">
-            <div>
+        <footer className="footer p-20 bg-black text-gray-300">
+            <div className=''>
                 <img src={logo} alt="" />
                 <p>Car Doctor Ltd.<br />Providing reliable service since 2001.</p>
             </div>

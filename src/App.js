@@ -4,7 +4,7 @@ import { routes } from './routes/Routes/Routes'
 
 function App() {
   return (
-    <div className='max-w-screen-lg mx-auto'>
+    <div className=''>
       <RouterProvider router={routes}></RouterProvider>
     </div>
   );
